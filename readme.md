@@ -4,7 +4,7 @@ Il est temps de réchauffer tes neuronnes pour l'examen!
 
 Voici un lien vers un fichier lucid chart qui ne contient rien! Je t'invite à y créer une feuille avec ton nom et à y ajouter la classes manquante.
 
-Voici le lien sur lucid chart : https://lucid.app/lucidchart/76288256-8168-4823-b762-64296cbf8c24/edit?view_items=-V6emEyP8XIv&invitationId=inv_93e90f8b-571f-454f-b20e-1ef301b5ba46
+Voici le lien sur lucid chart : https://lucid.app/lucidchart/b3506825-66cb-4a0d-8003-16d72f5e9bdd/edit?beaconFlowId=CC889FDC72EEFC89&invitationId=inv_5cf64bef-0880-4518-9e11-9b24568a36e0&page=0_0#
 
 ## Objectif
 
