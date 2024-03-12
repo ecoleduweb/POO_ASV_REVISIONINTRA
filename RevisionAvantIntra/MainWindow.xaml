@@ -20,7 +20,7 @@
         </Menu>
         <!--Row2-->
         <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">Sexe</Label>
-        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="EdtSexe" Width="200"/>
+        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Name="EdtSexe" Width="200"/>
         <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center">Age</Label>
         <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Name="EdtAge" Width="200"/>
         <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Bottom">Ville</Label>
