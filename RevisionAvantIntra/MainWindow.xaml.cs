@@ -9,6 +9,7 @@ namespace RevisionAvantIntra
     {
         public MainWindow()
         {
+           InitializeComponent();
         }
 
         public void OnMenuAfficherInfoClick(object sender, RoutedEventArgs e)
