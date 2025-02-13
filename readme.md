@@ -1,54 +1,44 @@
-# ASV
+# GetSet
 
-Il est temps de réchauffer tes neuronnes pour l'examen!
-
-Voici un lien vers un fichier lucid chart qui ne contient rien! Je t'invite à y créer une feuille avec ton nom et à y ajouter la classes manquante.
-
-Voici le lien sur lucid chart : https://lucid.app/lucidchart/b3506825-66cb-4a0d-8003-16d72f5e9bdd/edit?beaconFlowId=CC889FDC72EEFC89&invitationId=inv_5cf64bef-0880-4518-9e11-9b24568a36e0&page=0_0#
+Comme c'est important de comprendre les get set (surtout si tu fais du java un jour), je t'ai préparé une petite activité!
 
 ## Objectif
 
-- Être en mesure de comprendre comment un diagramme de classe représente des classes dans ton code.
-- Être en mesure de créer une interface WPF.
-  - Grid
-  - TextBox
-  - Label
-  - Menu
+- Être en mesure de comprendre comment un diagramme de classe représente les attributs d'une classe dans ton code.
+
 - Appliquer le concept d'encapsulation.
-  - public
-  - protected
+  - private
+  - public (ton constructeur est public)
 
 ## Descrption de la demande.
 
-Ce travail permet d'afficher les informations age sexe ville dans un MessageBox en fonction de ce que l'utilisateur a entré.
-
-Pour se faire, tu devras créer une classe `Personne` qui contientles attributs suivants :
-Age (int)
-Sexe (string)
-Ville (string)
-
-Tous les attributs de cette classe sont protected.
-Son constructeur prend les trois en paramètre.
-
-À l'ouverture du programme, les champs sont déjà remplis en fonction de l'information accessible de la classe Personne.
+Ce travail permet d'afficher les informations relative à ta tasse de la technique dans un MessageBox en fonction des informations que l'utilisateur a entré.
 
 À partir du menu (Il est déjà présent dans le code, voir comment il est programmé en XAML), tu peux afficher l'information qui provient des TextBox.
 
-### Quand est-ce que je met l'attribut personne à jour?
+Voici un [lien](https://lucid.app/lucidchart/b3506825-66cb-4a0d-8003-16d72f5e9bdd/edit?viewport_loc=-1855%2C-203%2C3071%2C1511%2C0_0&invitationId=inv_5cf64bef-0880-4518-9e11-9b24568a36e0) vers un fichier lucid chart qui contient la classe que tu devras créer.
 
-Lorsque que tu clics sur le bouton du menu **Afficher les informations**, tu mets à jour les attributs de l'objet Personne.
+### SET Quand est-ce que je mets les attributs de la tasse à jour?
 
-### Quand est-ce que le contenu des champs est mis à jour?
+- Lorsque que tu cliques sur le bouton du menu **Afficher les informations** au tout début de la méthode `OnMenuAfficherInfoClick`.
 
-Dans le constructeur après avoir créé un nouvel objet Personne. Tu dois accéder aux informations des attributs, mais ils sont protected! Comment faire!??
+### GET Quand est-ce que le lis les attributs de la tasse?
+
+- Dans le constructeur `MainWindow`, après `InitializeComponent();` pour afficher les bonnes valeurs dans les champs textes à partir de l'objet `tasse` que tu vas créer.
+- Dans le MessageBox pour afficher les informations à l'usager.
+
+Petit rappel pour la string interpolation, on ajoute des accolades pour interpréter du code.
+
+`$"Ceci est une string {interpolee.GetAttribut()}"`
 
 ### Et quand j'ai fini?
-Tu montre ton code, ton diagramme de classe à tes amis qui ont aussi fini et ensuite au prof. Pas de remise en ligne dans notre cas, tout se fera en classe.
+
+Soumettre ton code en ligne.
+
+### Si j'ai besoin d'aide?
+
+Comme c'est un devoir, tu **dois** poser tes questions dans discord à tes collègues. J'interviendrai au besoin si personne ne répond ou si les réponses sont à corriger.
 
 ### Et il y a un bonus?
-Non, mais je veux que tu crées une classe Enfant qui étend de parent, mais qui valide si l'âge passée dans son constructeur est en base de 18 ans.
-De plus, enfant a comme ville et sexe la valeur "N/A".
 
-Tu pourras tester ta nouvelle classe dans ton logiciel une fois qu'elle sera codée.
-
-Bonne révision!
+Heu non... c'est un devoir. Pas de bonus pour un devoir.

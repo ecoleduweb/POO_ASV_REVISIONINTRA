@@ -11,7 +11,7 @@
             <RowDefinition Height="20" />
             <RowDefinition />
         </Grid.RowDefinitions>
-        
+
         <!--Row1-->
         <Menu>
             <MenuItem Header="Fichier">
@@ -19,11 +19,11 @@
             </MenuItem>
         </Menu>
         <!--Row2-->
-        <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">Sexe</Label>
-        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="EdtSexe" Width="200"/>
-        <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center">Age</Label>
-        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Name="EdtAge" Width="200"/>
-        <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Bottom">Ville</Label>
-        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Name="EdtVille" Width="200"/>
+        <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top">Couleur</Label>
+        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="EdtCouleur" Width="200"/>
+        <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center">Mls</Label>
+        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Name="EdtMls" Width="200"/>
+        <Label Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Bottom">Couleur</Label>
+        <TextBox Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Name="EdtContenu" Width="200"/>
     </Grid>
 </Window>

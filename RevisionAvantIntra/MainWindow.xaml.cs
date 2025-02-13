@@ -9,13 +9,13 @@ namespace RevisionAvantIntra
     {
         public MainWindow()
         {
+            InitializeComponent();
         }
 
         public void OnMenuAfficherInfoClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Age: \n" +
-                            $"Sexe: \n" +
-                            $"Ville: ");
+            // Ceci est un exemple de string interpolation.
+            MessageBox.Show($"Ma tasse -couleur- peut contenir -mls- mls de -contenu-");
         }
     }
 }
